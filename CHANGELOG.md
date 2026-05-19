@@ -1,5 +1,31 @@
 # xeokit-convert Changelog
 
+## [1.2.0](https://github.com/DhivinX/xeokit-convert/compare/v1.3.1...v1.2.0) (2026-05-19)
+
+
+### Features
+
+* drop bundler version update ([eaf6aab](https://github.com/DhivinX/xeokit-convert/commit/eaf6aabc78e7ad5ba05ebb7c249bf853a193b2bd))
+* Not calculating edges for meshes containing to many triangles ([4dadf2c](https://github.com/DhivinX/xeokit-convert/commit/4dadf2c70cdf51443cdc87bf944ad825ef100da3))
+
+
+### Bug Fixes
+
+* [XEOK190] use native TextEncoder ([c6d2b7c](https://github.com/DhivinX/xeokit-convert/commit/c6d2b7c66e6a9f2bcde4e9672fbd5d1d97f8a4a1))
+* [XEOK190] use native TextEncoder ([b3be176](https://github.com/DhivinX/xeokit-convert/commit/b3be1769671badbfa643c118766d62c23e8aef7b))
+* Error baseUri must be provided [#73](https://github.com/DhivinX/xeokit-convert/issues/73) ([71e1f8e](https://github.com/DhivinX/xeokit-convert/commit/71e1f8e35871042969c4a95f1a3ce6bb98bd4d38))
+* Open external link in documentation in a new tab ([3159d42](https://github.com/DhivinX/xeokit-convert/commit/3159d42bfc46ea161a713925c8dbc8c0bf26a863))
+* package.json & package-lock.json to reduce vulnerabilities ([20aa417](https://github.com/DhivinX/xeokit-convert/commit/20aa417c9a18f924dce11014a63dfdebe128bebc))
+* Quantization underflow for objects with reused geometry ([322d041](https://github.com/DhivinX/xeokit-convert/commit/322d041c196e1bf81d8a43032a5e61b430a66a05))
+* skip calculating edges for meshes having more than 10M triangels ([4dadf2c](https://github.com/DhivinX/xeokit-convert/commit/4dadf2c70cdf51443cdc87bf944ad825ef100da3))
+* switch library for TextEncoder ([b95f3d0](https://github.com/DhivinX/xeokit-convert/commit/b95f3d00feeefe90f3c4c31eafc61102689455f4))
+* switch library for TextEncoder ([e188883](https://github.com/DhivinX/xeokit-convert/commit/e1888839ae4d678f4366b817db2a6c3cd6f77296))
+
+
+### Miscellaneous Chores
+
+* release 1.2.0 ([a0029af](https://github.com/DhivinX/xeokit-convert/commit/a0029afb963404060ffd57e9bfc241c516cc2cdc))
+
 ## [1.3.1](https://github.com/xeokit/xeokit-convert/compare/v1.3.0...v1.3.1) (2025-09-10)
 
 
